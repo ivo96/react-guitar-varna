@@ -3,7 +3,9 @@ import React from "react";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
+import Done from "@material-ui/icons/Done";
+import Explore from "@material-ui/icons/Explore";
+import Assignment from "@material-ui/icons/Assignment";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import Fingerprint from "@material-ui/icons/Fingerprint";
 // core components
@@ -20,13 +22,9 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
+            <h2 className={classes.title}>Китара ли дочух?</h2>
             <h5 className={classes.description}>
-              This is the paragraph where you can write more details about your
-              product. Keep you user engaged by providing meaningful
-              information. Remember that by this time, the user is curious,
-              otherwise he wouldn't scroll to get here. Add a button if you want
-              the user to see more.
+              Класическата китара във Варна има близо 50-годишна традиция... Варненската китарна школа е известна с отлично подготвените си преподаватели и изпълнители, които печелят уважение в много национални и международни конкурси.
             </h5>
           </GridItem>
         </GridContainer>
@@ -34,27 +32,27 @@ class ProductSection extends React.Component {
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Chat}
+                title="Уроци"
+                description="Класическа Китара - Варна организира уроци по класическа китара при най-добрите преподаватели във Варна."
+                icon={Assignment}
                 iconColor="info"
                 vertical
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={VerifiedUser}
+                title="Събития"
+                description="Класическа Китара - Варна организира организира събития като: Дни на класическата китара, Майсторски класове и Коледни празници."
+                icon={Explore}
                 iconColor="success"
                 vertical
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Fingerprint}
+                title="Цел"
+                description="Основната цел е популяризиране на класическата китара и възможност за по-лесно взаимодействие между преподаватели, школи, училища, университети, други институти и организации в страната и по света. "
+                icon={Done}
                 iconColor="danger"
                 vertical
               />

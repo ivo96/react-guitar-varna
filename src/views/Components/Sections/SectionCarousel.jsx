@@ -10,9 +10,9 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import image1 from "assets/img/imagesForResize/01.jpg";
+import image2 from "assets/img/imagesForResize/02.jpg";
+import image3 from "assets/img/imagesForResize/03.jpg";
 
 class SectionCarousel extends React.Component {
   render() {
@@ -39,10 +39,7 @@ class SectionCarousel extends React.Component {
                       className="slick-image"
                     />
                     <div className="slick-caption">
-                      <h4>
-                        <LocationOn className="slick-icons" />Yellowstone
-                        National Park, United States
-                      </h4>
+                      <h4>Китарен конкурс – Кюстендил</h4>
                     </div>
                   </div>
                   <div>
@@ -52,10 +49,7 @@ class SectionCarousel extends React.Component {
                       className="slick-image"
                     />
                     <div className="slick-caption">
-                      <h4>
-                        <LocationOn className="slick-icons" />Somewhere Beyond,
-                        United States
-                      </h4>
+                      <h4>Китарен конкурс – Кюстендил</h4>
                     </div>
                   </div>
                   <div>
@@ -65,10 +59,7 @@ class SectionCarousel extends React.Component {
                       className="slick-image"
                     />
                     <div className="slick-caption">
-                      <h4>
-                        <LocationOn className="slick-icons" />Yellowstone
-                        National Park, United States
-                      </h4>
+                      <h4>Китарен конкурс – Кюстендил</h4>
                     </div>
                   </div>
                 </Carousel>

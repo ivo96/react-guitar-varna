@@ -16,9 +16,9 @@ import CardFooter from "components/Card/CardFooter.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+import team1 from "assets/img/faces/teacher1.jpg";
+import team2 from "assets/img/faces/teacher2.jpg";
+import team3 from "assets/img/faces/teacher4.jpg";
 
 class TeamSection extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class TeamSection extends React.Component {
     );
     return (
       <div className={classes.section}>
-        <h2 className={classes.title}>Here is our team</h2>
+        <h2 className={classes.title}>Част от преподавателите</h2>
         <div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
@@ -39,41 +39,17 @@ class TeamSection extends React.Component {
                   <img src={team1} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Gigi Hadid
+                  Боян Дойчев
                   <br />
-                  <small className={classes.smallTitle}>Model</small>
+                  <small className={classes.smallTitle}></small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                    Боян Дойчев е носител на много национални и международни
+                    отличия от конкурси и фестивали. Участва в майсторските класове на: Георги Василев,
+                    Хуберт Кепел, Стефан Гос, Пепе Ромеро, Серхио Гомез и други.
                   </p>
                 </CardBody>
-                <CardFooter className={classes.justifyCenter}>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-twitter"} />
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-instagram"} />
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-facebook"} />
-                  </Button>
-                </CardFooter>
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
@@ -82,34 +58,17 @@ class TeamSection extends React.Component {
                   <img src={team2} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Christian Louboutin
+                  Боян Матев
                   <br />
-                  <small className={classes.smallTitle}>Designer</small>
+                  <small className={classes.smallTitle}></small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                    Изработва първата си китара през 1993 г., а от 2004 г. е член на
+                    „Регионалното сдружение на майсторите лютиери“ в Казанлък. От 1998 г. работи  като
+                    лютиер и преподавател по китара в гр. Варна.
                   </p>
                 </CardBody>
-                <CardFooter className={classes.justifyCenter}>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-twitter"} />
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-linkedin"} />
-                  </Button>
-                </CardFooter>
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
@@ -118,41 +77,16 @@ class TeamSection extends React.Component {
                   <img src={team3} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Kendall Jenner
+                  Анета Калеева
                   <br />
-                  <small className={classes.smallTitle}>Model</small>
+                  <small className={classes.smallTitle}> </small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                    Анета Калеева е член на Сдружение „Приятели на класическата китара“ – Варна
+                    и жури в Традиционен музикален фестивал “Дни на класическата китара”  от създаването му до сега.
                   </p>
                 </CardBody>
-                <CardFooter className={classes.justifyCenter}>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-twitter"} />
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-instagram"} />
-                  </Button>
-                  <Button
-                    justIcon
-                    color="transparent"
-                    className={classes.margin5}
-                  >
-                    <i className={classes.socials + " fab fa-facebook"} />
-                  </Button>
-                </CardFooter>
               </Card>
             </GridItem>
           </GridContainer>

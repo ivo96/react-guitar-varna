@@ -12,9 +12,6 @@ import Teachers from "views/Teachers/Teachers.jsx";
 
 
 var indexRoutes = [
-  { path: "/landing-page", name: "LandingPage", component: LandingPage },
-  { path: "/profile-page", name: "ProfilePage", component: ProfilePage },
-  { path: "/login-page", name: "LoginPage", component: LoginPage },
   { path: "/history", name: "History", component: History },
   { path: "/news", name: "News", component: News },
   { path: "/notes", name: "Notes", component: Notes },
@@ -22,7 +19,7 @@ var indexRoutes = [
   { path: "/projects", name: "Projects", component: Projects },
   { path: "/teachers", name: "Teachers", component: Teachers },
   { path: "/contacts", name: "Contacts", component: Contacts },
-  { path: "/", name: "Components", component: Components }
+  { path: "/", name: "Components", component: LandingPage }
 ];
 
 export default indexRoutes;
